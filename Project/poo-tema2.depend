@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1588517723 source:c:\users\grecu\desktop\facultate\poo\poo-tema2\main.cpp
+	<iostream>
+	<string.h>
+	"Pereche.h"
+	"Multime-Pereche.h"
+	"StackPereche.h"
+	"QueuePereche.h"
+
+1588518178 c:\users\grecu\desktop\facultate\poo\poo-tema2\pereche.h
+	<iostream>
+
+1588518195 c:\users\grecu\desktop\facultate\poo\poo-tema2\multime-pereche.h
+	<iostream>
+
+1588516302 c:\users\grecu\desktop\facultate\poo\poo-tema2\stackpereche.h
+
+1588516872 c:\users\grecu\desktop\facultate\poo\poo-tema2\queuepereche.h
+
