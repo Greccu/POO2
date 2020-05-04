@@ -1,6 +1,6 @@
 class StackPereche: public MultimePereche{
 
- public:
+public:
 
     StackPereche(int);
     StackPereche(const StackPereche&);

@@ -4,6 +4,8 @@
 #include "Multime-Pereche.h"
 #include "StackPereche.h"
 #include "QueuePereche.h"
+#include "Stack.h"
+
 using namespace std;
 
 void func(int a=7,char b='a'){
@@ -12,7 +14,7 @@ cout<<a<<" "<<b<<"\n";}
 
 int main()
 {
-
+    /*
     MultimePereche m(7);
     Pereche p;
     p.set(7,9);
@@ -52,5 +54,42 @@ int main()
     cin>>test;
     cout<<test;
 
+    Stack st;
+    cout<<"Created stack\n";
+    st.add(7,2);
+    st.add(2,3);
+    st.add(2,3);
+    st.add(2,3);
+    st.add(2,3);
+    st.add(7,3);
+    st.add(2,1);
+    st.pop();
+    cout<<st;
+    */
+
+    try{
+        MultimePereche m(-1);
+    }
+    catch(const char* eroare){
+        cout<<eroare<<"\n";
+    }
+
+    try{
+        MultimePereche n(7);
+        n.add(7,2);
+        n.add(2,3);
+        cout<<n.get_element(-3);
+    }
+    catch(const char* eroare){
+        cout<<eroare<<"\n";
+    }
+
+    try{
+        MultimePereche p(10);
+        p.pop();
+    }
+    catch(const char* eroare){
+        cout<<eroare<<"\n";
+    }
     return 0;
 }

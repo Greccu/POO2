@@ -18,10 +18,11 @@ public:
     int get_n();
     int get_capacity();
     Pereche get_element(int); //returneaza perechea de pe pozitia i, by default ultima pozitie
-    void add(Pereche p);
+    void add(Pereche);
+    void add(int,int);
     virtual Pereche pop();
-    friend ostream &operator <<(ostream &o, const MultimePereche&);
-    friend istream &operator >>(istream &i, MultimePereche&);
+    friend ostream &operator <<(ostream&, const MultimePereche&);
+    friend istream &operator >>(istream&, MultimePereche&);
     const MultimePereche &operator =(const MultimePereche&);
 
 };
@@ -105,6 +106,11 @@ void MultimePereche::add(Pereche p){
         v[n-1] = p;
     }
 
+}
+
+void MultimePereche::add(int a=0, int b=0){
+    Pereche p(a,b);
+    add(p);
 }
 
 Pereche MultimePereche::pop(){

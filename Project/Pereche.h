@@ -10,12 +10,12 @@ private:
 
 public:
 
-    Pereche(int a, int b);
-    Pereche(const Pereche & ob);
+    Pereche(int, int);
+    Pereche(const Pereche&);
     ~Pereche();
-    void set(int a=0, int b=0);
-    void set_x(int a=0);
-    void set_y(int b=0);
+    void set(int, int);
+    void set_x(int);
+    void set_y(int);
     int get_x();
     int get_y();
 
