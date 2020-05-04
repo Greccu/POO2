@@ -9,6 +9,7 @@ parametrilor către constructorul din clasa de baza;
 natural);
 4. tratarea exceptiilor;
 5. citirea informațiilor complete a n obiecte, memorarea și afisarea acestora.
+
  Cerinte specifice fiecarei teme:
 
 Tema 5. multimi finite de numere întregi reprezentate ca tablouri unidimensionale
